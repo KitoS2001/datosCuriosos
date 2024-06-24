@@ -1,0 +1,59 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "slots": [],
+          "name": "HelloWorldIntent",
+          "samples": [
+            "hello",
+            "how are you",
+            "say hi world",
+            "say hi",
+            "hi",
+            "say hello world",
+            "say hello"
+          ]
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": []
+        },
+        {
+          "slots": [],
+          "name": "SpaceFactIntent",
+          "samples": [
+            "give me some space trivia",
+            "tell me something about space",
+            "I want to know a space fact",
+            "give me a space fact",
+            "tell me a space fact",
+            "dime un hecho del espacio",
+            "dime algo sobre el espacio",
+            "quiero saber un dato del espacio",
+            "cuéntame un dato curioso sobre el espacio",
+            "dime un dato curioso sobre el espacio"
+          ]
+        }
+      ],
+      "types": [],
+      "invocationName": "datos curiosos"
+    }
+  }
+}
